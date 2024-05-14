@@ -1,0 +1,71 @@
+.main-container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 0;
+    padding: 1rem 0;
+    background: rgb(216, 155, 204);
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2;
+    transition: 0.2s ease-in-out;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+}
+
+.nav ul li a:hover {
+    color: rgb(229, 85, 195);
+    transition: 0.3s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.logo a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+nav ul li a {
+    color: black;
+    line-height: 2;
+}
+
+.btn {
+    padding: 0.3rem 1.2rem;
+    background-color: #5f0d5d; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'Robotto'; 
+    font-size: 16px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #d8add5;
+    color: white;
+}
+
+nav img {
+    vertical-align: middle; 
+    margin-right: 1px; 
+    cursor: pointer;
+}
