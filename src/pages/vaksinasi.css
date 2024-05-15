@@ -1,0 +1,16 @@
+#vaksinasi {
+    height: 460px;
+    display: inline;
+}
+
+.main-gambar {
+    margin: rem 0 0.5rem;
+}
+
+.main-gambar img {
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 80px);
+    object-fit: cover;
+    filter:brightness(0.7);
+}
