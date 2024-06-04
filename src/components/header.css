@@ -1,3 +1,4 @@
+
 .main-container {
     width: 1150px;
     margin: 0 auto;
@@ -25,12 +26,19 @@ header {
 
 .nav ul li a:hover {
     color: rgb(229, 85, 195);
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
-
 .nav ul li a {
-    text-decoration: none;
+    text-decoration:none;
+    line-height: 2;
+    color: black; /* Menetapkan warna teks tanpa dekorasi teks */
+}
+
+.nav ul li a.active-link {
+    border-bottom: 2px solid #000; /* Garis bawah untuk tautan aktif */
+    color: rgb(142, 8, 111); /* Warna teks untuk tautan aktif */
+    
 }
 
 .logo {
@@ -41,15 +49,11 @@ header {
     margin-left: 0.5rem;
 }
 
-.logo a{
+.logo img{
     color: rgb(0, 0, 0);
     display: inline-block;
 }
 
-nav ul li a {
-    color: black;
-    line-height: 2;
-}
 
 .btn {
     padding: 0.3rem 1.2rem;
@@ -58,7 +62,7 @@ nav ul li a {
     border: none;
     border-radius: 5px; 
     cursor: pointer;
-    font-family: 'Robotto'; 
+    font-family: 'Roboto'; 
     font-size: 16px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s, color 0.3s; 
@@ -74,3 +78,4 @@ nav img {
     margin-right: 1px; 
     cursor: pointer;
 }
+

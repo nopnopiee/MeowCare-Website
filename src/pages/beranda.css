@@ -1,0 +1,364 @@
+#home {
+    height: 460px;
+    display: inline;
+}
+
+.gambar-utama {
+    margin: rem 0 0.5rem;
+}
+
+.gambar-utama img {
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 80px);
+    object-fit: cover;
+    filter:brightness(0.7);
+}
+
+.gambar-utama .overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(226, 187, 86);
+    font-size: 40px;
+    text-align: center;
+}
+
+.gambar-utama .btn-utama{
+    padding: 0.3rem 1.2rem;
+    background-color: #c358c1; 
+    border-color: rgb(247, 154, 33);
+    color: white; 
+    border-width: 105%;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'Robotto'; 
+    font-size: 16px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, color 0.3s; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.keterangan-1 {
+    margin: rem 0 0.5rem;
+    margin-top: 50px;
+}
+
+.keterangan-1 h1 {
+    text-align: center;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.layanan {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgb(204, 184, 119);
+    border-radius: 0.7rem;
+}
+
+.layanan:hover{
+    transform:scale(1.1);
+}
+
+.layanan a {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.layanan p {
+    color: white;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 50px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    font-size: 3rem;
+    color: black;
+}
+
+.alasan {
+    margin: 3rem 0 0.5rem;
+    margin-top: 50px;
+}
+
+.alasan h1 {
+    text-align: center;
+    position: absolute; 
+    top: 170%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    font-size: 40px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    position:relative;
+}
+
+.image-1 img {
+    border-radius: 7%;
+    position:relative;
+}
+
+.image-2 img {
+    border-radius: 7%;
+    margin-top: 300px;
+}
+
+.kolom-1 {
+    display:inline-block;
+}
+
+.kolom-1 .text-1 {
+    margin-top: 150px;
+}
+
+.kolom-1 .text-2 {
+    margin-top: 70px;
+}
+
+.kolom-2 {
+    display:inline-block;
+}
+
+.kolom-2 .text-3 {
+    margin-top: 145px;
+}
+
+.kolom-2 .text-4 {
+    margin-top: 55px;
+}
+
+.galeri {
+    margin: 3rem 0 0.5rem;
+    margin-top: 50px;
+    text-align: center; /* Pusatkan judul */
+}
+
+.galeri h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.gallery-main {
+    align-items: center;
+    top: 100;
+    white-space: nowrap;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: calc(100vh - 200px);
+}
+
+.grid-3 {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
+    gap: 1rem;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.image {
+    margin: 0; /* Menambahkan jarak di antara gambar */
+}
+
+.img-1 img{
+    width: 300px; /* Mengatur lebar gambar */
+    height: 300px; /* Mengatur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.review {
+    margin-top:10%;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    background: rgb(216, 155, 204);
+}
+
+.review h1 {
+    padding-left: 300px;
+}
+
+.input-review {
+    display: flex;
+    justify-content: space-between; /* Membuat ruang antara input dan tombol */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    gap: 10px; /* Tambahkan jarak antar elemen jika diperlukan */
+}
+
+.isi {
+    display: flex;
+    flex-direction: column; /* Mengatur input secara vertikal */
+    gap: 10px; /* Jarak antara input nama dan testimoni */
+    margin-left: 20%;
+}
+
+.isi input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.isi textarea {
+    width: 500px; /* Menetapkan lebar textarea lebih besar */
+    height: 100px; /* Menetapkan tinggi textarea */
+}
+
+.btn-kirim {
+    padding: 1rem 4rem;
+    margin-right: 300px; /* Menambahkan jarak dari input */
+    margin-top: -40px; /* Mengangkat tombol ke atas */
+    background-color: #5f0d5d; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'Robotto'; 
+    font-size: 16px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn-kirim:hover {
+    background-color: #d8add5;
+    color: white;
+}
+
+.testimoni-klien {
+    margin: 3rem 0 0.5rem;
+    margin-top: 100px;
+    text-align: center; /* Pusatkan judul */
+}
+
+.testimoni-klien h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.contoh {
+    padding: 3rem 2rem;
+    margin: 3% auto;
+    background: rgb(183, 140, 154);
+    border-radius: 0.7rem;
+    width: 500px
+}
+
+.isi-testimoni p {
+    color: white;
+    margin-top: -10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px; 
+    margin: auto;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-right: 160px;
+}
+
+.detail h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detail h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile img {
+    width: 50px;
+    align-self: center; /* Menempatkan gambar profil di tengah vertikal antara h2 dan h3 */
+    margin-left: 160px; /* Memberikan jarak kanan agar tidak terlalu dekat dengan teks */
+}
+
+.image-again {
+    margin: rem 0 0.5rem;
+}
+
+.image-again img {
+    width: 100%;
+    height: auto;
+    max-height: calc(70vh - 80px);
+    object-fit: cover;
+}
+
+.question {
+    margin: 3rem 0 0.5rem;
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.question h1 {
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    position:relative;
+}
+
+.question-gambar img {
+    border-radius: 7%;
+    position:relative;
+    width: 700px;
+    height: 700px;
+}
+
+.question-isi {
+    display:inline-block;
+}
+
+.question-isi .text-1 {
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+.question-isi .text-2 {
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+
+
+
+
