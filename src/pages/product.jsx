@@ -28,7 +28,7 @@ function ProductPage() {
     <div className='mx-20 my-20 font-montserrat'>
       <div className='relative'>
         <img
-          src='img/banner-product.svg'
+          src='/img/banner-product.svg'
           alt='banner-product'
           className='w-full h-full'
         />
