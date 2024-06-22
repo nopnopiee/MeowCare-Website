@@ -83,7 +83,7 @@ function Beranda() {
         <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-4'>
           <div className='flex justify-center md:row-span-2'>
             <img
-              src='public/img/landing page-kenapa harus meowcare-1.jpg'
+              src='/img/landing page-kenapa harus meowcare-1.jpg'
               alt='Cat Image 1'
               className='w-full max-w-[400px] h-auto max-h-[500px] rounded-lg shadow-lg object-cover xs:hidden lg:block'
             />
@@ -95,7 +95,7 @@ function Beranda() {
           </div>
           <div className='flex justify-center xs:col-span-4 lg:col-span-1 lg:mt-56'>
             <img
-              src='public/img/landing page-kenapa harus meowcare.jpg'
+              src='/img/landing page-kenapa harus meowcare.jpg'
               alt='Cat Image 2'
               className='w-full max-w-[400px] h-auto max-h-[500px] rounded-lg shadow-lg object-cover'
             />
