@@ -105,7 +105,7 @@ function Header({ isLoggedIn, onLogin, onLogout }) {
             <li>
               <NavLink to="/product" className="block py-2 px-3">
                 <img
-                  src="img/bag_2662503.png"
+                  src="/img/bag_2662503.png"
                   alt="bag"
                   className="w-[16px] sm:w-[18px] md:w-[20px] h-[16px] sm:h-[18px] md:h-[20px]"
                 />
@@ -135,7 +135,7 @@ function Header({ isLoggedIn, onLogin, onLogout }) {
           {isLoggedIn ? (
             <div className="relative inline-block">
               <img
-                src="public/img/account_3033143.png"
+                src="/img/account_3033143.png"
                 alt="Profile"
                 className="md:w-[40px] md:h-[40px] sm:w-[30px] sm:h-[30px] w-[20px] h-[20px] rounded-full shadow-lg cursor-pointer"
                 onClick={handleProfileClick}

@@ -9,7 +9,7 @@ function Footer() {
           <div className='footer-1 flex flex-col items-start mb-6'>
             <div className='logo-1 flex items-center mb-4'>
               <img
-                src='img/logo_3-removebg-preview.png'
+                src='/img/logo_3-removebg-preview.png'
                 alt='logo'
                 width='30'
                 height='30'
@@ -19,19 +19,19 @@ function Footer() {
             </div>
             <div className='logo-2 flex space-x-4'>
               <img
-                src='public/img/gmail_5968534.png'
+                src='/img/gmail_5968534.png'
                 alt='logo'
                 width='30'
                 height='30'
               />
               <img
-                src='public/img/instagram_2111463.png'
+                src='/img/instagram_2111463.png'
                 alt='logo'
                 width='30'
                 height='30'
               />
               <img
-                src='public/img/linkedin_2504923.png'
+                src='/img/linkedin_2504923.png'
                 alt='logo'
                 width='30'
                 height='30'
