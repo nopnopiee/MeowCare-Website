@@ -158,14 +158,14 @@ function Beranda() {
             <div className='image'>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-1.jpg'
+                  src='/img/landing page-galeri-1.jpg'
                   alt='Cat 2'
                   className='w-[200px] h-[250px] mb-4'
                 />
               </div>
               <div className='img-2'>
                 <img
-                  src='public/img/landing page-galeri-2.jpg'
+                  src='/img/landing page-galeri-2.jpg'
                   alt='Cat 3'
                   className='w-[200px] h-[250px] mb-4'
                 />
@@ -174,14 +174,14 @@ function Beranda() {
             <div className='image'>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-3.jpg'
+                  src='/img/landing page-galeri-3.jpg'
                   alt='Cat 3'
                   className='w-[200px] h-[250px] mb-4'
                 />
               </div>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-4.jpg'
+                  src='/img/landing page-galeri-4.jpg'
                   alt='Cat 2'
                   className='w-[200px] h-[250px] mb-4'
                 />
@@ -190,14 +190,14 @@ function Beranda() {
             <div className='image'>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-5.jpg'
+                  src='/img/landing page-galeri-5.jpg'
                   alt='Cat 4'
                   className='w-[200px] h-[250px] mb-4'
                 />
               </div>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-6.jpg'
+                  src='/img/landing page-galeri-6.jpg'
                   alt='Cat 3'
                   className='w-[200px] h-[250px] mb-4'
                 />
@@ -206,14 +206,14 @@ function Beranda() {
             <div className='image'>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri-7.jpg'
+                  src='/img/landing page-galeri-7.jpg'
                   alt='Cat 3'
                   className='w-[200px] h-[250px] mb-4'
                 />
               </div>
               <div className='img-1'>
                 <img
-                  src='public/img/landing page-galeri.jpg'
+                  src='/img/landing page-galeri.jpg'
                   alt='Cat 4'
                   className='w-[200px] h-[250px] mb-4'
                 />
@@ -222,14 +222,14 @@ function Beranda() {
             <div className='image'>
               <div className='img-1'>
                 <img
-                  src='public/img/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface.jpg'
+                  src='/img/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface.jpg'
                   alt='Cat 4'
                   className='w-[200px] h-[250px] mb-4'
                 />
               </div>
               <div className='img-1'>
                 <img
-                  src='public/img/british-shorthair-kitty-with-monochrome-wall-her.jpg'
+                  src='/img/british-shorthair-kitty-with-monochrome-wall-her.jpg'
                   alt='Cat 3'
                   className='w-[200px] h-[250px] mb-4'
                 />
@@ -292,7 +292,7 @@ function Beranda() {
             </div>
             <div className='profile flex items-center justify-center'>
               <img
-                src='public/img/woman.png'
+                src='/img/woman.png'
                 alt=''
                 className='w-16 h-16 rounded-full mr-4'
               />
@@ -307,7 +307,7 @@ function Beranda() {
 
       <div className='image-again my-36'>
         <img
-          src='public/img/landing page tengah.jpg'
+          src='/img/landing page tengah.jpg'
           alt='kucing'
           className='w-full h-[400px]'
         />
@@ -322,7 +322,7 @@ function Beranda() {
         <div className='flex flex-wrap items-center justify-center'>
           <div className='question-gambar flex-shrink-0 mr-10'>
             <img
-              src='public/img/cat-question.svg'
+              src='/img/cat-question.svg'
               alt='Kitty'
               className='rounded-lg w-[500px]'
             />

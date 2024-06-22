@@ -81,7 +81,7 @@ function Tentang() {
           <div className='grid-dokter grid sm:grid-cols-1 md:grid-cols-2 gap-10'>
             <div className='dokter-1'>
               <img
-                src='public/img/WhatsApp Image 2024-05-08 at 01.28.44 (1).jpeg'
+                src='/img/WhatsApp Image 2024-05-08 at 01.28.44 (1).jpeg'
                 alt='dokter1'
                 className='w-[540px] h-[503px] rounded-[14px] shadow-xl'
               />
@@ -93,7 +93,7 @@ function Tentang() {
             </div>
             <div className='dokter-2'>
               <img
-                src='public/img/WhatsApp Image 2024-05-08 at 01.28.33.jpeg'
+                src='/img/WhatsApp Image 2024-05-08 at 01.28.33.jpeg'
                 alt='dokter 2'
                 className='w-[540px] h-[503px] rounded-[14px] shadow-xl'
               />

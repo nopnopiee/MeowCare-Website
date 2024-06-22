@@ -46,7 +46,7 @@ function FAQ() {
             placeholder='Ketik yang ingin anda cari'
           />
           <div className='absolute left-0 top-0 flex items-center h-full px-3'>
-            <img src='img/search.svg' alt='search' className='w-4 h-4' />
+            <img src='/img/search.svg' alt='search' className='w-4 h-4' />
           </div>
         </div>
       </div>
