@@ -3,7 +3,7 @@ import React from "react";
 function Profile() {
   return (
     <div className="container-profile mx-auto mt-8">
-      <h1 className="text-2xl justify-center font-semibold mb-4">Profil Pengguna</h1>
+      <h1 className="text-2xl text-center font-semibold mb-4">Profil Pengguna</h1>
       <div className="flex flex-row justify-center items-center p-4 ml-p mt-12">
         <div className="flex flex-col justify-center items-center w-[280px] h-[350px] bg-[#F1D7B9]">
           <img
@@ -15,7 +15,7 @@ function Profile() {
         </div>
         <form className="ml-20 mb-5 flex flex-col">
           <label className="mb-2">
-            Nama Pemilik
+            Username
             <input
               id='namaPemilik'
               className='w-full bg-[#F1D7B9] rounded-[12px] h-[50px] border-2 shadow-lg mt-1'
@@ -29,7 +29,7 @@ function Profile() {
             />
           </label>
           <label className="mb-2">
-            Alamat
+            Password
             <input
               id='alamat'
               className='w-full bg-[#F1D7B9] rounded-[12px] h-[50px] border-2 shadow-lg mt-1'

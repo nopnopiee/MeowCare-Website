@@ -1,5 +1,4 @@
 import React from "react";
-// import "./tentang.css";
 
 function Tentang() {
   function randomColor() {
@@ -33,7 +32,7 @@ function Tentang() {
           <div className='grid-tentang grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5'>
             <div className='tentang-1 col-span-1 lg:row-span-3'>
               <img
-                src='public/img/Lulu Belle - July 11, 2011.jpg'
+                src='public/img/WhatsApp Image 2024-05-08 at 01.07.33 (1).jpeg'
                 alt=''
                 className='w-full h-auto'
               />
@@ -59,7 +58,7 @@ function Tentang() {
             <div />
             <div className='tentang-3 col-span-1 lg:row-span-2'>
               <img
-                src='public/img/Lulu Belle - July 11, 2011.jpg'
+                src='public/img/WhatsApp Image 2024-05-08 at 01.07.33 (2).jpeg'
                 alt=''
                 className='w-full h-auto'
               />
